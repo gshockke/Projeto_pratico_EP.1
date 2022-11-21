@@ -49,6 +49,11 @@ a:hover {
     background-color: hsl(194, 85%, 52%);
 }
 
+#ahref{
+    color:rgb(46, 45, 45);
+    font-size: 15px;
+}
+
 #ulmenu{
     list-style: none;
     padding: 0;
