@@ -1,5 +1,56 @@
-body{
-    border: 2px solid red;
+body {
+    margin: 0;
+    /* border: 2px solid red; */
     box-sizing: border-box;
     height: 5000px;
+}
+
+header {
+    /* border: 1px solid green; */
+    box-sizing: border-box;
+    background-color: #2C579C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+a {
+    list-style: none;
+    color: white;
+    padding: 10px;
+    text-align: right;
+}
+
+a:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: hsl(194, 85%, 52%);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+#h1color {
+    color: white;
+    display: flex;
+}
+
+#logo {
+    /* border: 1px solid yellow; */
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+#menu {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    width: 400px;
+    font-size: 1.2em;
 }
