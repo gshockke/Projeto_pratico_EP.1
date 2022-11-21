@@ -2,7 +2,6 @@ body {
     margin: 0;
     /* border: 2px solid red; */
     box-sizing: border-box;
-    height: 5000px;
 }
 
 header {
@@ -40,7 +39,7 @@ a:hover {
     background-color: hsl(194, 85%, 52%);
 }
 
-ul {
+#ulmenu{
     list-style: none;
     padding: 0;
     text-align: right;
@@ -70,4 +69,10 @@ h5 {
     box-sizing: border-box;
     width: 400px;
     font-size: 1.2em;
+}
+
+.texto {
+    border: 1px solid red;
+    width: 80%;
+    margin:auto;
 }
