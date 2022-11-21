@@ -1,29 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+{% extends "base.html" %}
+{% block section %}
 
-    <link rel="stylesheet" href="static/style.css">
-    
-</head>
-<body>
-    <main class="main">
-        <header class="header">
-            <div id="menu">
-                <h1><big>CP<sub>2</sub></big></h1>
-            </div>
-            <nav>
-                <ul>
-                    <a href="/">Home</a>|
-                    <a href="/resumo">Resumo</a>|
-                    <a href="/formacao">Formação</a>|
-                    <a href="/historico">Histórico</a>
-            </nav>
-        </header>
-        <section class="section" >
+
+<section class="texto" >
             <h2>HISTÓRICO E EXPERIÊNCIAS PROFISSIONAIS:</h2>
             <p>
                 03/2007 a 01/2009
@@ -78,9 +57,4 @@
                 Desenhista
             </p>
         </section>
-        <footer>
-            <h5>Todos os direitos reservados</h5>
-        </footer>
-    </main>
-</body>
-</html>
+        {% endblock %}

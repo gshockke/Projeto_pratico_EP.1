@@ -1,33 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-
-    <link rel="stylesheet" href="static/style.css">
-    
-</head>
-<body>
-    <main class="main">
+{% extends "base.html" %}
+{% block section %}
+     
         
-        <header class="header">
-            <div id="menu">
-                <h1><big>CP<sub>2</sub></big></h1>
-            </div>
-            <nav>
-                <ul>
-                    <a href="/">Home</a>|
-                    <a href="/resumo">Resumo</a>|
-                    <a href="/formacao">Formação</a>|
-                    <a href="/historico">Histórico</a>
-                </ul>
-            </nav>
-        </header>
-        
-        
-        <section class="section">
+        <section class="texto">
             <div class="img">
                 <img src="static/img/Eng_600_300.png">
             </div>
@@ -49,12 +24,4 @@
             </div>
             <address align="right"><a href="https://blog.anhanguera.com/engenheiro-mecanico/", side="left">fonte: https://blog.anhanguera.com/engenheiro-mecanico/</a></address>
         </section>
-        
-        
-        <footer>
-            <h5>Todos os direitos reservados</h5>
-        </footer>
-        
-    </main>
-</body>
-</html>
+        {% endblock %}
