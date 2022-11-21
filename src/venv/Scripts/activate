@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\Documentos\A FATEC\DSM\Design Digital\Git exercicios\Projeto Prático EP.1\src\venv"
+VIRTUAL_ENV="D:\Documentos\A FATEC\DSM\Design Digital\Git exercicios\Projeto Prático EP.1\Projeto_pratico_EP.1\src\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
