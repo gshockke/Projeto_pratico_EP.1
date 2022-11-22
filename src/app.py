@@ -1,16 +1,16 @@
 from flask import Flask, render_template
-from dotenv import load_dotenv
-import os
-load_dotenv()
+# from dotenv import load_dotenv
+# import os
+# load_dotenv()
 
 app = Flask(__name__)
 
 
-@app.route("/")
-def base():
-    return render_template("base.html")
+# @app.route("/")
+# def base():
+#     return render_template("base.html")
 
-@app.route('/home')
+@app.route('/')
 def home():
     return render_template("home.html")
 
