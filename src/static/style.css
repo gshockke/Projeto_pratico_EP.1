@@ -1,6 +1,6 @@
 body {
-    margin: 0;
     /* border: 2px solid red; */
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -95,7 +95,7 @@ h5 {
 }
 
 .texto {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 80%;
     margin:auto;
 }
